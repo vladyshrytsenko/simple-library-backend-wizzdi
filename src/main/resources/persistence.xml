@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1"
+             xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+    <persistence-unit name="primary">
+            
+                <class>com.vladokk157.gmail.com.runtime.model.AppUser</class>
+            
+                <class>com.vladokk157.gmail.com.runtime.model.Author</class>
+            
+                <class>com.vladokk157.gmail.com.runtime.model.AuthorToBook</class>
+            
+                <class>com.vladokk157.gmail.com.runtime.model.Basic</class>
+            
+                <class>com.vladokk157.gmail.com.runtime.model.Book</class>
+            
+                <class>com.vladokk157.gmail.com.runtime.model.BookInstance</class>
+            
+                <class>com.vladokk157.gmail.com.runtime.model.Genre</class>
+            
+                <class>com.vladokk157.gmail.com.runtime.model.GenreToBook</class>
+            
+                <class>com.vladokk157.gmail.com.runtime.model.Lender</class>
+            
+                <class>com.vladokk157.gmail.com.runtime.model.Person</class>
+            
+
+        <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    </persistence-unit>
+</persistence>
